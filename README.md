@@ -35,12 +35,16 @@ Install the heat set inserts in the insert carrier as shown in the photos. The c
 ![heatsetinsert1](https://cdn.discordapp.com/attachments/604735153092165642/1050966279290368060/Vorbon_Assembly_2022-Dec-10_02-37-19AM-000_CustomizedView15315673568.png)
 ![heatsetinsert2](https://cdn.discordapp.com/attachments/604735153092165642/1050972438055366696/ea78a98a-6d2e-4551-a06d-1bf3f31b0d55.PNG)
 
-### 3. Install X Beam (In between page 70 and 71)
+### 3. Install Insert Carrier (In between page 70 and 71)
 
 Install the Insert Carrier like the gif, make sure the holes line up.
 
 ![carrier](https://cdn.discordapp.com/attachments/604735153092165642/1050977731409625128/ezgif.com-gif-maker_1.gif)
 
+### 4. Install X Beam
+
 Install the Beam like normal but, ignore the "Preload M3 Nuts" instructions.
+
+
 
 ### Continue at page 73 in the original instructions
