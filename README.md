@@ -2,72 +2,45 @@
 
 The second release of my custom X axis beam for the Voron 0/0.1 printer.
 
-This mod was designed to provide an easy way to have a lighter X carriage while keeping the same stiffness 
-![Image of Voron Zero Light X](https://cdn.discordapp.com/attachments/635687829254701107/1047738704229306418/image.png)
-![Image of Voron Zero Light X](https://cdn.discordapp.com/attachments/604735153092165642/1047746389897129994/image.png)
+This mod was designed to provide an easy way to have a lighter X carriage while keeping the same stiffness as the original X beam.
+![Image of Voron Zero Vorbon X](https://cdn.discordapp.com/attachments/604735153092165642/1050965682835173497/477b1098-ed2d-4766-8e9f-cb45b0991919.PNG)
+![Image of Voron Zero Vorbon X](https://cdn.discordapp.com/attachments/604735153092165642/1050965227967090709/Vorbon_Assembly_2022-Dec-10_02-35-25AM-000_CustomizedView31822142334.png)
 
 
 ## Parts Needed
 - Part - Quantity - Link/Info
-- XY_Joint_Right_Upper - 1 - 
-- XY_Joint_Left_Upper - 1 - 
-- Carbon_Tube_Insert_Carrier_V2 - 1 - 
+- XY_Joint_Right_Upper - 1 - https://github.com/MongooseTNM/Voron-0_Vorbon_X/tree/main/STLs
+- XY_Joint_Left_Upper - 1 - https://github.com/MongooseTNM/Voron-0_Vorbon_X/tree/main/STLs
+- Carbon_Tube_Insert_Carrier_V2 - 1 - https://github.com/MongooseTNM/Voron-0_Vorbon_X/tree/main/STLs
 - Voron Spec M3 Threaded Insert - 6 - Short M3x5x4
 - M2 Threaded Insert - 10 - M3x3.6x4 Something similar to: https://www.mcmaster.com/94459A120/
 - 15mm Carbon Fiber Square Tube - 1 - 15mm OD 13mm ID 200mm long
 
-### I have included a STEP File of the whole assembly.
+### I have included a STEP and Fusion 360 Files of the whole assembly.
 
 
 ## Instructions
 
-### 1. Tap Plate and Ensure Tolerances
+### 1. Drill Tube
 
-Tap the middle 10 linear rail holes for M2
+Drill the tube based on the drawings included below (or in the pdf)
 
-![tapholes](https://cdn.discordapp.com/attachments/604735153092165642/1047755970836713492/image.png)
-
-and make sure that you can slide a M3 bolt through the outer 4 holes (2 on either side), if not, drill out with 3mm drill bit. It should be a light interference fit to reduce play between the spacer and the plate.
-
-![tolerances1](https://cdn.discordapp.com/attachments/604735153092165642/1047756844728332378/image.png)
+![drawingfordrill](https://cdn.discordapp.com/attachments/604735153092165642/1050968587797532702/Carbon_Tube_Drawing_v1-1.png)
+![drillholes](https://cdn.discordapp.com/attachments/604735153092165642/1050970252592295977/Vorbon_Assembly_2022-Dec-10_02-55-06AM-000_CustomizedView33908203547.png)
 
 ### 2. Heat Set Inserts
 
-Insert the heat set inserts on both 3d printed spacers as shown in the photos. **Note the curved corners on one side when installing the inserts.**
+Install the heat set inserts in the insert carrier as shown in the photos. The center 10 holes are for M2 heat set inserts, the others are for M3.
 
-![heatsetinsert1](https://cdn.discordapp.com/attachments/604735153092165642/1047754401936330813/image.png)
-![heatsetinsert2](https://cdn.discordapp.com/attachments/604735153092165642/1047754402250891264/image.png)
+![heatsetinsert1](https://cdn.discordapp.com/attachments/604735153092165642/1050966279290368060/Vorbon_Assembly_2022-Dec-10_02-37-19AM-000_CustomizedView15315673568.png)
+![heatsetinsert2](https://cdn.discordapp.com/attachments/604735153092165642/1050972438055366696/ea78a98a-6d2e-4551-a06d-1bf3f31b0d55.PNG)
 
-### 3. Install X Beam
+### 3. Install X Beam (In between page 70 and 71)
 
-Press together the 3d printed spacer and the beam on both sides. Make sure that the holes line up and the end is as close to flush as possible.
+Install the Insert Carrier like the gif, make sure the holes line up.
 
-![presstogether1](https://cdn.discordapp.com/attachments/604735153092165642/1048020484190646382/image.png)
-![lineup1](https://cdn.discordapp.com/attachments/604735153092165642/1048020099774300170/image.png)
+![carrier](https://cdn.discordapp.com/attachments/604735153092165642/1050977731409625128/ezgif.com-gif-maker_1.gif)
 
-**REPLACES PAGE 71:**
-Mount linear rail using M2 bolts. Use the modified rail installation guide
+Install the Beam like normal but, ignore the "Preload M3 Nuts" instructions.
 
-![mountrail](https://cdn.discordapp.com/attachments/604735153092165642/1048026218194280550/Screenshot_2022-12-01_155843.png)
-
-**REPLACES PAGE 72:**
-Then insert beam like the default instructions BUT, use M3x16 bolts instead of M3x12.
-
-![insertbeam](https://cdn.discordapp.com/attachments/604735153092165642/1048022292011159622/image_1.png)
-
-**REPLACES PAGE 76:**
-Then bolt Endstop mount like the default instructions BUT, use a M3x20 bolt instead of M3x16.
-
-![Endstopbolt1](https://cdn.discordapp.com/attachments/604735153092165642/1048024315968360508/image_2.png)
-
-### 4. Endstop Adapter
-
-Because the bottom edge of the X beam doesnt exist anymore you need to print this new Adapter and mount it so it lines up with the endstop (use glue or similar).
-
-![Endstopadapter](https://cdn.discordapp.com/attachments/604735153092165642/1048034720266584114/image.png)
-
-For me the hole on the adapter lines up with the second from the right hole on the beam.
-
-![Endstopadapter2](https://cdn.discordapp.com/attachments/604735153092165642/1048034719931047958/image.png)
-
-## You are now done with this mod! Continue with the default Voron 0 assembly guide.
+### Continue at page 73 in the original instructions
